@@ -1,5 +1,5 @@
---Creates a stored procedure ComputeAverageScoreForUser that
--- computes and stores the average score for a student.
+-- Average score
+--
 delimiter //
 CREATE PROCEDURE ComputeAverageScoreForUser (
 	IN user_id INT
